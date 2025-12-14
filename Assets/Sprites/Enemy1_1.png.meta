@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 576e3cd11c6cb084982a3f8992d52857
+guid: 4347a98d62e772543aa0a27864716a7e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7159147562559833660
-    second: Sonic Wait 3_0
+      213: -5007276879233255147
+    second: Enemy1_1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sonic Wait 3_0
+      name: Enemy1_1_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 5
-        width: 87
-        height: 115
+        x: 0
+        y: 0
+        width: 41
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c368bf007c66a5360800000000000000
-      internalID: 7159147562559833660
+      spriteID: 51976414534928ab0800000000000000
+      internalID: -5007276879233255147
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Sonic Wait 3_0: 7159147562559833660
+      Enemy1_1_0: -5007276879233255147
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
