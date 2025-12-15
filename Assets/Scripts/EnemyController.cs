@@ -62,10 +62,7 @@ public class EnemyController : MonoBehaviour
         }
     }
 
-    void OnBecameInvisible()
-    {
-        Destroy(gameObject);
-    }
+
 }
 
 

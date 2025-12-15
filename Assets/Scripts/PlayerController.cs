@@ -181,25 +181,34 @@ public class PlayerController : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.contacts[0].normal.y > 0.5f)
+        if (collision.contacts.Length > 0 && collision.contacts[0].normal.y > 0.5f)
         {
             isGrounded = true;
             isJumping = false;
         }
 
-        if (collision.gameObject.CompareTag("Enemy") && !isDead)
+        if (isDead) return;
+
+        if (collision.gameObject.CompareTag("Enemy"))
         {
             if (inJumpAnimation)
             {
                 Destroy(collision.gameObject);
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce * 0.5f);
             }
-            else 
+            else
             {
                 StartCoroutine(PlayerDeath());
             }
         }
+
+        else if (collision.gameObject.CompareTag("Enemy2"))
+        {
+            StartCoroutine(PlayerDeath());
+        }
     }
+
+
 
     IEnumerator PlayerDeath()
     {
