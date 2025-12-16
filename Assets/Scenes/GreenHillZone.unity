@@ -5419,7 +5419,7 @@ MonoBehaviour:
   maxSpeed: 10
   acceleration: 10
   deceleration: 12
-  jumpForce: 12
+  jumpForce: 13
   baseSprite: {fileID: -5401899207152824542, guid: d7725a8127d6ced4a941b73fc3043bd7, type: 3}
   runSprites:
   - {fileID: 5933084355681741587, guid: 4d15310539c75e9428cc606a4358ce1b, type: 3}
@@ -5908,6 +5908,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1791820618}
   - component: {fileID: 1791820617}
+  - component: {fileID: 1791820620}
   - component: {fileID: 1791820619}
   m_Layer: 0
   m_Name: Base1_0
@@ -5986,8 +5987,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!68 &1791820619
-EdgeCollider2D:
+--- !u!251 &1791820619
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791820615}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
+--- !u!61 &1791820620
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -6017,23 +6037,21 @@ EdgeCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.54320633}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.91, y: 1.14}
+    newSize: {x: 1.91, y: 1.14}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.91, y: 0.053587496}
   m_EdgeRadius: 0
-  m_Points:
-  - {x: -0.955, y: 0}
-  - {x: -0.9597833, y: -0.5508885}
-  - {x: -0.9536859, y: 0.5300936}
-  - {x: -0.036356494, y: 0.5284778}
-  - {x: 0.50945914, y: 0.5220829}
-  - {x: 0.96333873, y: 0.5239048}
-  - {x: 0.97822934, y: -0.42975134}
-  m_AdjacentStartPoint: {x: 0, y: 0}
-  m_AdjacentEndPoint: {x: 0, y: 0}
-  m_UseAdjacentStartPoint: 0
-  m_UseAdjacentEndPoint: 0
 --- !u!1 &1886171364
 GameObject:
   m_ObjectHideFlags: 0

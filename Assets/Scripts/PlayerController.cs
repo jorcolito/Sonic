@@ -1,8 +1,12 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
+    private int ringCount = 0;
+    private float startTime;
+
     [Header("Movimiento")]
     public float maxSpeed = 5f;
     public float acceleration = 10f;
@@ -27,9 +31,9 @@ public class PlayerController : MonoBehaviour
     public Sprite deathSprite; 
 
     [Header("Drop Off")]
-    public float deathJumpForce = 10f; // Fuerza del salto al morir
-    public float fallSpeed = -20f;     // Velocidad de la caída
-    public float respawnDelay = 1f;    // Tiempo antes de reiniciar el nivel
+    public float deathJumpForce = 10f; 
+    public float fallSpeed = -20f;     
+    public float respawnDelay = 1f;    
 
     private Rigidbody2D rb;
     private SpriteRenderer sr;
@@ -45,9 +49,8 @@ public class PlayerController : MonoBehaviour
 
     private bool isDead = false;    
     private bool isJumping = false; 
-    private bool inJumpAnimation = false; // Nuevo flag
+    private bool inJumpAnimation = false; 
 
-    // Referencia a la corrutina de animación
     private Coroutine animateCoroutine;
 
     void Start()
@@ -58,6 +61,10 @@ public class PlayerController : MonoBehaviour
 
         sr.sprite = baseSprite;
         animateCoroutine = StartCoroutine(Animate());
+        
+        startTime = Time.time; 
+        
+        GameManager.Instance?.UpdateRingUI(ringCount);
     }
 
     void Update()
@@ -68,6 +75,8 @@ public class PlayerController : MonoBehaviour
             HandleJump();
             HandleFlip();
             HandleIdleTimer();
+            
+            GameManager.Instance?.UpdateTimerUI(Time.time - startTime); 
         }
     }
 
@@ -154,7 +163,7 @@ public class PlayerController : MonoBehaviour
             {
                 sr.sprite = jumpSprites[spriteIndex % jumpSprites.Length];
                 spriteIndex++;
-                inJumpAnimation = true; // Activamos flag de salto
+                inJumpAnimation = true; 
             }
             else if (speedAbs >= speedThreshold && maxSpeedSprites.Length > 0)
             {
@@ -208,7 +217,11 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-
+    public void CollectRing()
+    {
+        ringCount++;
+        GameManager.Instance?.UpdateRingUI(ringCount); 
+    }
 
     IEnumerator PlayerDeath()
     {
@@ -231,13 +244,6 @@ public class PlayerController : MonoBehaviour
 
         yield return new WaitForSeconds(respawnDelay);
 
-        UnityEngine.SceneManagement.SceneManager.LoadScene(
-            UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
-
-
-
-
-
-

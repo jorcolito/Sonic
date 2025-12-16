@@ -1,0 +1,3211 @@
+fileFormatVersion: 2
+guid: dbfc63ae66d9f42d4a61c07415e8cea7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1996979703969742516
+    second: MarbleZone-Act1_0
+  - first:
+      213: -4143692001745229741
+    second: MarbleZone-Act1_1
+  - first:
+      213: -2347831184296875449
+    second: MarbleZone-Act1_2
+  - first:
+      213: 7370276711298619238
+    second: MarbleZone-Act1_3
+  - first:
+      213: 8704450370234463264
+    second: MarbleZone-Act1_4
+  - first:
+      213: -3738978201589102016
+    second: MarbleZone-Act1_5
+  - first:
+      213: -5614876212214447157
+    second: MarbleZone-Act1_6
+  - first:
+      213: -3185676909682777096
+    second: MarbleZone-Act1_7
+  - first:
+      213: 1757442390391890794
+    second: MarbleZone-Act1_8
+  - first:
+      213: -8852327448155926241
+    second: MarbleZone-Act1_9
+  - first:
+      213: 1823551090470129458
+    second: MarbleZone-Act1_10
+  - first:
+      213: -8996655995042442667
+    second: MarbleZone-Act1_11
+  - first:
+      213: -9080338461091285920
+    second: MarbleZone-Act1_12
+  - first:
+      213: -5174998513251665513
+    second: MarbleZone-Act1_13
+  - first:
+      213: 4480399780096521439
+    second: MarbleZone-Act1_14
+  - first:
+      213: 7252673699383647375
+    second: MarbleZone-Act1_15
+  - first:
+      213: -2010469310571412471
+    second: MarbleZone-Act1_16
+  - first:
+      213: -5184258010715867417
+    second: MarbleZone-Act1_17
+  - first:
+      213: 8514103871868352979
+    second: MarbleZone-Act1_18
+  - first:
+      213: -3265551254555047368
+    second: MarbleZone-Act1_19
+  - first:
+      213: -3108670647229437442
+    second: MarbleZone-Act1_20
+  - first:
+      213: 4836461209669210896
+    second: MarbleZone-Act1_21
+  - first:
+      213: 1927263130720271501
+    second: MarbleZone-Act1_22
+  - first:
+      213: 3181430347154476165
+    second: MarbleZone-Act1_23
+  - first:
+      213: 5088466865024071191
+    second: MarbleZone-Act1_24
+  - first:
+      213: -6748759996772535621
+    second: MarbleZone-Act1_25
+  - first:
+      213: 3939807224489858428
+    second: MarbleZone-Act1_26
+  - first:
+      213: -6487723243327098664
+    second: MarbleZone-Act1_27
+  - first:
+      213: -3368671146805937494
+    second: MarbleZone-Act1_28
+  - first:
+      213: 5089626696790004039
+    second: MarbleZone-Act1_29
+  - first:
+      213: -5772605889882134258
+    second: MarbleZone-Act1_30
+  - first:
+      213: 8079186155526437795
+    second: MarbleZone-Act1_31
+  - first:
+      213: -5151449297125445183
+    second: MarbleZone-Act1_32
+  - first:
+      213: -3251736710766667590
+    second: MarbleZone-Act1_33
+  - first:
+      213: -3032992513431887282
+    second: MarbleZone-Act1_34
+  - first:
+      213: -476556308965251863
+    second: MarbleZone-Act1_35
+  - first:
+      213: -8860363180843886293
+    second: MarbleZone-Act1_36
+  - first:
+      213: 304010370038708059
+    second: MarbleZone-Act1_37
+  - first:
+      213: -7935156317376904444
+    second: MarbleZone-Act1_38
+  - first:
+      213: -8699626987958415725
+    second: MarbleZone-Act1_39
+  - first:
+      213: -6774903808134374051
+    second: MarbleZone-Act1_40
+  - first:
+      213: 3474004388140648463
+    second: MarbleZone-Act1_41
+  - first:
+      213: 5424735378783289523
+    second: MarbleZone-Act1_42
+  - first:
+      213: -846393356411378874
+    second: MarbleZone-Act1_43
+  - first:
+      213: -7330208101194262946
+    second: MarbleZone-Act1_44
+  - first:
+      213: 1443165124456249494
+    second: MarbleZone-Act1_45
+  - first:
+      213: 5502512089654534726
+    second: MarbleZone-Act1_46
+  - first:
+      213: 330133043585012118
+    second: MarbleZone-Act1_47
+  - first:
+      213: 7740446922687549576
+    second: MarbleZone-Act1_48
+  - first:
+      213: 7396747864404427431
+    second: MarbleZone-Act1_49
+  - first:
+      213: 2165460360246161016
+    second: MarbleZone-Act1_50
+  - first:
+      213: -5549018170715229124
+    second: MarbleZone-Act1_51
+  - first:
+      213: -5565504795350558675
+    second: MarbleZone-Act1_52
+  - first:
+      213: -7894975845643692961
+    second: MarbleZone-Act1_53
+  - first:
+      213: -3391788449582818530
+    second: MarbleZone-Act1_54
+  - first:
+      213: -7886494706269971351
+    second: MarbleZone-Act1_55
+  - first:
+      213: 4420861902461663368
+    second: MarbleZone-Act1_56
+  - first:
+      213: -8073587040002425282
+    second: MarbleZone-Act1_57
+  - first:
+      213: -5998531551988091192
+    second: MarbleZone-Act1_58
+  - first:
+      213: 7461196523061104440
+    second: MarbleZone-Act1_59
+  - first:
+      213: -8926310119756264182
+    second: MarbleZone-Act1_60
+  - first:
+      213: 1194868508524965478
+    second: MarbleZone-Act1_61
+  - first:
+      213: 9022106755164885501
+    second: MarbleZone-Act1_62
+  - first:
+      213: -7611954711321000626
+    second: MarbleZone-Act1_63
+  - first:
+      213: -4865347760582247324
+    second: MarbleZone-Act1_64
+  - first:
+      213: -6129379294475479506
+    second: MarbleZone-Act1_65
+  - first:
+      213: -3052319231468951078
+    second: MarbleZone-Act1_66
+  - first:
+      213: 7400017326727830855
+    second: MarbleZone-Act1_67
+  - first:
+      213: 1970508925272522742
+    second: MarbleZone-Act1_68
+  - first:
+      213: -2560894238706637449
+    second: MarbleZone-Act1_69
+  - first:
+      213: 5770629841709821557
+    second: MarbleZone-Act1_70
+  - first:
+      213: 7575876297236193045
+    second: MarbleZone-Act1_71
+  - first:
+      213: -4886443776796199944
+    second: MarbleZone-Act1_72
+  - first:
+      213: -5081750809658870582
+    second: MarbleZone-Act1_73
+  - first:
+      213: 2189351667165065086
+    second: MarbleZone-Act1_74
+  - first:
+      213: -4790983843146667420
+    second: MarbleZone-Act1_75
+  - first:
+      213: 2108309917996447625
+    second: MarbleZone-Act1_76
+  - first:
+      213: 4737054062956691825
+    second: MarbleZone-Act1_77
+  - first:
+      213: 7958659109318556599
+    second: MarbleZone-Act1_78
+  - first:
+      213: -6099763542389904779
+    second: MarbleZone-Act1_79
+  - first:
+      213: 4258585811225398666
+    second: MarbleZone-Act1_80
+  - first:
+      213: 4217357999658908098
+    second: MarbleZone-Act1_81
+  - first:
+      213: -4830366383360019370
+    second: MarbleZone-Act1_82
+  - first:
+      213: -5240351448932248432
+    second: MarbleZone-Act1_83
+  - first:
+      213: 5144354648093874918
+    second: MarbleZone-Act1_84
+  - first:
+      213: 2556006800787538802
+    second: MarbleZone-Act1_85
+  - first:
+      213: 3277980431726662345
+    second: MarbleZone-Act1_86
+  - first:
+      213: 3726711711402551725
+    second: MarbleZone-Act1_87
+  - first:
+      213: -216862583095462958
+    second: MarbleZone-Act1_88
+  - first:
+      213: 2202892743367955951
+    second: MarbleZone-Act1_89
+  - first:
+      213: 5795429519271374218
+    second: MarbleZone-Act1_90
+  - first:
+      213: -5401744379621808376
+    second: MarbleZone-Act1_91
+  - first:
+      213: 1511441787429866414
+    second: MarbleZone-Act1_92
+  - first:
+      213: -6389335782975489240
+    second: MarbleZone-Act1_93
+  - first:
+      213: -6719648257027900458
+    second: MarbleZone-Act1_94
+  - first:
+      213: 6702652976260592943
+    second: MarbleZone-Act1_95
+  - first:
+      213: -6908476304300335636
+    second: MarbleZone-Act1_96
+  - first:
+      213: 504623189550183120
+    second: MarbleZone-Act1_97
+  - first:
+      213: 446935528277481983
+    second: MarbleZone-Act1_98
+  - first:
+      213: -182749036523706595
+    second: MarbleZone-Act1_99
+  - first:
+      213: 1199378869816515159
+    second: MarbleZone-Act1_100
+  - first:
+      213: -7973359351614781081
+    second: MarbleZone-Act1_101
+  - first:
+      213: -6892368542071627475
+    second: MarbleZone-Act1_102
+  - first:
+      213: -6842206018539613108
+    second: MarbleZone-Act1_103
+  - first:
+      213: -5826255393537645106
+    second: MarbleZone-Act1_104
+  - first:
+      213: 1649453863267034745
+    second: MarbleZone-Act1_105
+  - first:
+      213: 7075782625816280727
+    second: MarbleZone-Act1_106
+  - first:
+      213: 1055730777633770507
+    second: MarbleZone-Act1_107
+  - first:
+      213: -4270001042168786473
+    second: MarbleZone-Act1_108
+  - first:
+      213: -7143815784817520607
+    second: MarbleZone-Act1_109
+  - first:
+      213: 72386031122149091
+    second: MarbleZone-Act1_110
+  - first:
+      213: 8771443661165190324
+    second: MarbleZone-Act1_111
+  - first:
+      213: 396137956627009876
+    second: MarbleZone-Act1_112
+  - first:
+      213: -6731089068848807724
+    second: MarbleZone-Act1_113
+  - first:
+      213: -2140734348948096910
+    second: MarbleZone-Act1_114
+  - first:
+      213: 6348982024841922563
+    second: MarbleZone-Act1_115
+  - first:
+      213: -6266889582608797649
+    second: MarbleZone-Act1_116
+  - first:
+      213: -7077733383385115647
+    second: MarbleZone-Act1_117
+  - first:
+      213: -3704248503282493227
+    second: MarbleZone-Act1_118
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MarbleZone-Act1_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1583
+        width: 339
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4108392a8d4944e0800000000000000
+      internalID: -1996979703969742516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_1
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 1792
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35829512416ae76c0800000000000000
+      internalID: -4143692001745229741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_2
+      rect:
+        serializedVersion: 2
+        x: 6410
+        y: 1792
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74a666b2af3da6fd0800000000000000
+      internalID: -2347831184296875449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_3
+      rect:
+        serializedVersion: 2
+        x: 6416
+        y: 1792
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 667d9499e9b784660800000000000000
+      internalID: 7370276711298619238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_4
+      rect:
+        serializedVersion: 2
+        x: 6422
+        y: 1792
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024b7da5e7b6cc870800000000000000
+      internalID: 8704450370234463264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_5
+      rect:
+        serializedVersion: 2
+        x: 6428
+        y: 1792
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04a4a57b22b7c1cc0800000000000000
+      internalID: -3738978201589102016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_6
+      rect:
+        serializedVersion: 2
+        x: 6438
+        y: 1792
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc3ca2975d3f312b0800000000000000
+      internalID: -5614876212214447157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_7
+      rect:
+        serializedVersion: 2
+        x: 6444
+        y: 1792
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f3a135aab33ac3d0800000000000000
+      internalID: -3185676909682777096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_8
+      rect:
+        serializedVersion: 2
+        x: 6453
+        y: 1792
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a63a580fa80b36810800000000000000
+      internalID: 1757442390391890794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_9
+      rect:
+        serializedVersion: 2
+        x: 6461
+        y: 1792
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f11d9396617362580800000000000000
+      internalID: -8852327448155926241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_10
+      rect:
+        serializedVersion: 2
+        x: 6467
+        y: 1792
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23f8f312e0e8e4910800000000000000
+      internalID: 1823551090470129458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_11
+      rect:
+        serializedVersion: 2
+        x: 6473
+        y: 1792
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5525b11f905752380800000000000000
+      internalID: -8996655995042442667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_12
+      rect:
+        serializedVersion: 2
+        x: 6479
+        y: 1792
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 064365287482cf180800000000000000
+      internalID: -9080338461091285920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_13
+      rect:
+        serializedVersion: 2
+        x: 6492
+        y: 1792
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 799b5704546be28b0800000000000000
+      internalID: -5174998513251665513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_14
+      rect:
+        serializedVersion: 2
+        x: 6507
+        y: 1792
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd43460acd39d2e30800000000000000
+      internalID: 4480399780096521439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_15
+      rect:
+        serializedVersion: 2
+        x: 6513
+        y: 1792
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8c9493ad4ca6a460800000000000000
+      internalID: 7252673699383647375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_16
+      rect:
+        serializedVersion: 2
+        x: 6519
+        y: 1792
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 904019f50d06914e0800000000000000
+      internalID: -2010469310571412471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_17
+      rect:
+        serializedVersion: 2
+        x: 6529
+        y: 1792
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e6be4f7ec0dd08b0800000000000000
+      internalID: -5184258010715867417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_18
+      rect:
+        serializedVersion: 2
+        x: 6539
+        y: 1792
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d9bd7f9c5c282670800000000000000
+      internalID: 8514103871868352979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_19
+      rect:
+        serializedVersion: 2
+        x: 6548
+        y: 1792
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83a4a648f6e6ea2d0800000000000000
+      internalID: -3265551254555047368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_20
+      rect:
+        serializedVersion: 2
+        x: 6556
+        y: 1792
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef9a43c4488cbd4d0800000000000000
+      internalID: -3108670647229437442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_21
+      rect:
+        serializedVersion: 2
+        x: 6566
+        y: 1792
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0131a4478df8e1340800000000000000
+      internalID: 4836461209669210896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_22
+      rect:
+        serializedVersion: 2
+        x: 6580
+        y: 1792
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8cf9473b930fba10800000000000000
+      internalID: 1927263130720271501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_23
+      rect:
+        serializedVersion: 2
+        x: 6587
+        y: 1792
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58c4ac77b06b62c20800000000000000
+      internalID: 3181430347154476165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_24
+      rect:
+        serializedVersion: 2
+        x: 6593
+        y: 1792
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 716fa1567addd9640800000000000000
+      internalID: 5088466865024071191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_25
+      rect:
+        serializedVersion: 2
+        x: 6599
+        y: 1792
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb2b1061a869752a0800000000000000
+      internalID: -6748759996772535621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_26
+      rect:
+        serializedVersion: 2
+        x: 6605
+        y: 1792
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c755c33fbc10da630800000000000000
+      internalID: 3939807224489858428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_27
+      rect:
+        serializedVersion: 2
+        x: 6614
+        y: 1792
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d07178651af6f5a0800000000000000
+      internalID: -6487723243327098664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_28
+      rect:
+        serializedVersion: 2
+        x: 6623
+        y: 1790
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa3681a0731041d0800000000000000
+      internalID: -3368671146805937494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_29
+      rect:
+        serializedVersion: 2
+        x: 6634
+        y: 1792
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7415385c38cf1a640800000000000000
+      internalID: 5089626696790004039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_30
+      rect:
+        serializedVersion: 2
+        x: 6640
+        y: 1792
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e096f39178593efa0800000000000000
+      internalID: -5772605889882134258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_31
+      rect:
+        serializedVersion: 2
+        x: 6646
+        y: 1792
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ab386ac0090f1070800000000000000
+      internalID: 8079186155526437795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_32
+      rect:
+        serializedVersion: 2
+        x: 6655
+        y: 1792
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c1f66668206288b0800000000000000
+      internalID: -5151449297125445183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_33
+      rect:
+        serializedVersion: 2
+        x: 6661
+        y: 1792
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab8d7a3a0b28fd2d0800000000000000
+      internalID: -3251736710766667590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_34
+      rect:
+        serializedVersion: 2
+        x: 6671
+        y: 1790
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e422976e065a8e5d0800000000000000
+      internalID: -3032992513431887282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_35
+      rect:
+        serializedVersion: 2
+        x: 6406
+        y: 1769
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e4a7a8df8ee269f0800000000000000
+      internalID: -476556308965251863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_36
+      rect:
+        serializedVersion: 2
+        x: 6412
+        y: 1769
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2999d891aaa90580800000000000000
+      internalID: -8860363180843886293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_37
+      rect:
+        serializedVersion: 2
+        x: 6418
+        y: 1769
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b57313222df083400800000000000000
+      internalID: 304010370038708059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_38
+      rect:
+        serializedVersion: 2
+        x: 6433
+        y: 1769
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4038d812f59a0e190800000000000000
+      internalID: -7935156317376904444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_39
+      rect:
+        serializedVersion: 2
+        x: 6439
+        y: 1769
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39e4658d857b44780800000000000000
+      internalID: -8699626987958415725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_40
+      rect:
+        serializedVersion: 2
+        x: 6445
+        y: 1769
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5d95b8a1e4baf1a0800000000000000
+      internalID: -6774903808134374051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_41
+      rect:
+        serializedVersion: 2
+        x: 6460
+        y: 1769
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f08854fb594263030800000000000000
+      internalID: 3474004388140648463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_42
+      rect:
+        serializedVersion: 2
+        x: 6466
+        y: 1769
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b04fd4e518884b40800000000000000
+      internalID: 5424735378783289523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_43
+      rect:
+        serializedVersion: 2
+        x: 6472
+        y: 1769
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64369da0ab10144f0800000000000000
+      internalID: -846393356411378874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_44
+      rect:
+        serializedVersion: 2
+        x: 6488
+        y: 1769
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5610aea19ed54a90800000000000000
+      internalID: -7330208101194262946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_45
+      rect:
+        serializedVersion: 2
+        x: 6498
+        y: 1769
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6987273d807270410800000000000000
+      internalID: 1443165124456249494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_46
+      rect:
+        serializedVersion: 2
+        x: 6515
+        y: 1769
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 642a62c8799dc5c40800000000000000
+      internalID: 5502512089654534726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_47
+      rect:
+        serializedVersion: 2
+        x: 6525
+        y: 1769
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 691d087014ed49400800000000000000
+      internalID: 330133043585012118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_48
+      rect:
+        serializedVersion: 2
+        x: 6542
+        y: 1769
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8809e8d27779b6b60800000000000000
+      internalID: 7740446922687549576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_49
+      rect:
+        serializedVersion: 2
+        x: 6552
+        y: 1769
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a284f63ef686a660800000000000000
+      internalID: 7396747864404427431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_50
+      rect:
+        serializedVersion: 2
+        x: 6569
+        y: 1769
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e69ab79b24d0e10800000000000000
+      internalID: 2165460360246161016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_51
+      rect:
+        serializedVersion: 2
+        x: 6579
+        y: 1769
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c34b45aaf5dedf2b0800000000000000
+      internalID: -5549018170715229124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_52
+      rect:
+        serializedVersion: 2
+        x: 6595
+        y: 1769
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d28956d30ea53c2b0800000000000000
+      internalID: -5565504795350558675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_53
+      rect:
+        serializedVersion: 2
+        x: 6601
+        y: 1769
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f545e1a3c496f6290800000000000000
+      internalID: -7894975845643692961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_54
+      rect:
+        serializedVersion: 2
+        x: 6607
+        y: 1769
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1bd7552062fde0d0800000000000000
+      internalID: -3391788449582818530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_55
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 1746
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96c97cd59da8d8290800000000000000
+      internalID: -7886494706269971351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_56
+      rect:
+        serializedVersion: 2
+        x: 6412
+        y: 1748
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 888f8414a7e0a5d30800000000000000
+      internalID: 4420861902461663368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_57
+      rect:
+        serializedVersion: 2
+        x: 6422
+        y: 1748
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3e3571ec5bd4ff80800000000000000
+      internalID: -8073587040002425282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_58
+      rect:
+        serializedVersion: 2
+        x: 6428
+        y: 1746
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c6f6c5c55fe0cca0800000000000000
+      internalID: -5998531551988091192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_59
+      rect:
+        serializedVersion: 2
+        x: 6406
+        y: 1725
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83fcf64e4be7b8760800000000000000
+      internalID: 7461196523061104440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_60
+      rect:
+        serializedVersion: 2
+        x: 6412
+        y: 1725
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d04fc5d306f1480800000000000000
+      internalID: -8926310119756264182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_61
+      rect:
+        serializedVersion: 2
+        x: 6418
+        y: 1725
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66e6eebe396059010800000000000000
+      internalID: 1194868508524965478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_62
+      rect:
+        serializedVersion: 2
+        x: 6433
+        y: 1725
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df1514bea46f43d70800000000000000
+      internalID: 9022106755164885501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_63
+      rect:
+        serializedVersion: 2
+        x: 6439
+        y: 1725
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e45c9591587ec5690800000000000000
+      internalID: -7611954711321000626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_64
+      rect:
+        serializedVersion: 2
+        x: 6445
+        y: 1725
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46cb0cd4dffca7cb0800000000000000
+      internalID: -4865347760582247324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_65
+      rect:
+        serializedVersion: 2
+        x: 6460
+        y: 1725
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e26972ba10210faa0800000000000000
+      internalID: -6129379294475479506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_66
+      rect:
+        serializedVersion: 2
+        x: 6466
+        y: 1725
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad92333b4dbf3a5d0800000000000000
+      internalID: -3052319231468951078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_67
+      rect:
+        serializedVersion: 2
+        x: 6472
+        y: 1725
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74d195b3d8422b660800000000000000
+      internalID: 7400017326727830855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_68
+      rect:
+        serializedVersion: 2
+        x: 6489
+        y: 1725
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fffa956d67a85b10800000000000000
+      internalID: 1970508925272522742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_69
+      rect:
+        serializedVersion: 2
+        x: 6515
+        y: 1725
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 775eb821240e57cd0800000000000000
+      internalID: -2560894238706637449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_70
+      rect:
+        serializedVersion: 2
+        x: 6525
+        y: 1725
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ee1655445651050800000000000000
+      internalID: 5770629841709821557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_71
+      rect:
+        serializedVersion: 2
+        x: 6542
+        y: 1725
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51f90178a5be22960800000000000000
+      internalID: 7575876297236193045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_72
+      rect:
+        serializedVersion: 2
+        x: 6552
+        y: 1725
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f3f425464ddf2cb0800000000000000
+      internalID: -4886443776796199944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_73
+      rect:
+        serializedVersion: 2
+        x: 6568
+        y: 1725
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac4ba39109ef979b0800000000000000
+      internalID: -5081750809658870582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_74
+      rect:
+        serializedVersion: 2
+        x: 6574
+        y: 1725
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7f68c9ddb3226e10800000000000000
+      internalID: 2189351667165065086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_75
+      rect:
+        serializedVersion: 2
+        x: 6580
+        y: 1725
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46a6b901491038db0800000000000000
+      internalID: -4790983843146667420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_76
+      rect:
+        serializedVersion: 2
+        x: 6595
+        y: 1725
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9877c9a33b8324d10800000000000000
+      internalID: 2108309917996447625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_77
+      rect:
+        serializedVersion: 2
+        x: 6601
+        y: 1725
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 171ca5082956db140800000000000000
+      internalID: 4737054062956691825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_78
+      rect:
+        serializedVersion: 2
+        x: 6607
+        y: 1725
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bbfb5b0b46d27e60800000000000000
+      internalID: 7958659109318556599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_79
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 1704
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57aa8f94069495ba0800000000000000
+      internalID: -6099763542389904779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_80
+      rect:
+        serializedVersion: 2
+        x: 6410
+        y: 1704
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8dcb9b7b39891b30800000000000000
+      internalID: 4258585811225398666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_81
+      rect:
+        serializedVersion: 2
+        x: 6417
+        y: 1704
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c9325491c0178a30800000000000000
+      internalID: 4217357999658908098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_82
+      rect:
+        serializedVersion: 2
+        x: 6429
+        y: 1704
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65476d0ed5717fcb0800000000000000
+      internalID: -4830366383360019370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_83
+      rect:
+        serializedVersion: 2
+        x: 6438
+        y: 1704
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 094903c2f188647b0800000000000000
+      internalID: -5240351448932248432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_84
+      rect:
+        serializedVersion: 2
+        x: 6446
+        y: 1704
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ead346eb4b646740800000000000000
+      internalID: 5144354648093874918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_85
+      rect:
+        serializedVersion: 2
+        x: 6457
+        y: 1704
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2738c6c94a2c87320800000000000000
+      internalID: 2556006800787538802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_86
+      rect:
+        serializedVersion: 2
+        x: 6471
+        y: 1704
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c2dfbdc5d9bd7d20800000000000000
+      internalID: 3277980431726662345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_87
+      rect:
+        serializedVersion: 2
+        x: 6477
+        y: 1704
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da9ef6a7e80f7b330800000000000000
+      internalID: 3726711711402551725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_88
+      rect:
+        serializedVersion: 2
+        x: 6483
+        y: 1704
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d3758131ac8dfcf0800000000000000
+      internalID: -216862583095462958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_89
+      rect:
+        serializedVersion: 2
+        x: 6489
+        y: 1704
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe59bb6574f329e10800000000000000
+      internalID: 2202892743367955951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_90
+      rect:
+        serializedVersion: 2
+        x: 6498
+        y: 1704
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8dabf831708d6050800000000000000
+      internalID: 5795429519271374218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_91
+      rect:
+        serializedVersion: 2
+        x: 6406
+        y: 1681
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 807ed2d3b162905b0800000000000000
+      internalID: -5401744379621808376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_92
+      rect:
+        serializedVersion: 2
+        x: 6412
+        y: 1681
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eab40763c48b9f410800000000000000
+      internalID: 1511441787429866414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_93
+      rect:
+        serializedVersion: 2
+        x: 6418
+        y: 1681
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82bbd0125f48457a0800000000000000
+      internalID: -6389335782975489240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_94
+      rect:
+        serializedVersion: 2
+        x: 6433
+        y: 1681
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6db774033830fb2a0800000000000000
+      internalID: -6719648257027900458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_95
+      rect:
+        serializedVersion: 2
+        x: 6439
+        y: 1681
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f253ab6ae5b940d50800000000000000
+      internalID: 6702652976260592943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_96
+      rect:
+        serializedVersion: 2
+        x: 6445
+        y: 1681
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced99f667692020a0800000000000000
+      internalID: -6908476304300335636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_97
+      rect:
+        serializedVersion: 2
+        x: 6460
+        y: 1681
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d230960e18c00700800000000000000
+      internalID: 504623189550183120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_98
+      rect:
+        serializedVersion: 2
+        x: 6466
+        y: 1681
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff91b78be75d33600800000000000000
+      internalID: 446935528277481983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_99
+      rect:
+        serializedVersion: 2
+        x: 6472
+        y: 1681
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d17a5f238beb67df0800000000000000
+      internalID: -182749036523706595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_100
+      rect:
+        serializedVersion: 2
+        x: 6486
+        y: 1681
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75ad58e3abc05a010800000000000000
+      internalID: 1199378869816515159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_101
+      rect:
+        serializedVersion: 2
+        x: 6492
+        y: 1681
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76946741aefe85190800000000000000
+      internalID: -7973359351614781081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_102
+      rect:
+        serializedVersion: 2
+        x: 6498
+        y: 1681
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d216ebc04536950a0800000000000000
+      internalID: -6892368542071627475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_103
+      rect:
+        serializedVersion: 2
+        x: 6512
+        y: 1681
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4418e0b0e99b01a0800000000000000
+      internalID: -6842206018539613108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_104
+      rect:
+        serializedVersion: 2
+        x: 6522
+        y: 1681
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec52c71a69bf42fa0800000000000000
+      internalID: -5826255393537645106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_105
+      rect:
+        serializedVersion: 2
+        x: 6539
+        y: 1681
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9766d69ac8904e610800000000000000
+      internalID: 1649453863267034745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_106
+      rect:
+        serializedVersion: 2
+        x: 6549
+        y: 1681
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ef8af1fca323260800000000000000
+      internalID: 7075782625816280727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_107
+      rect:
+        serializedVersion: 2
+        x: 6567
+        y: 1681
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0cce4b7c85b6ae00800000000000000
+      internalID: 1055730777633770507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_108
+      rect:
+        serializedVersion: 2
+        x: 6577
+        y: 1681
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d15bf2fca8edb4c0800000000000000
+      internalID: -4270001042168786473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_109
+      rect:
+        serializedVersion: 2
+        x: 6593
+        y: 1681
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1209f1da4611cdc90800000000000000
+      internalID: -7143815784817520607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_110
+      rect:
+        serializedVersion: 2
+        x: 6599
+        y: 1681
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ee6cb736ba210100800000000000000
+      internalID: 72386031122149091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_111
+      rect:
+        serializedVersion: 2
+        x: 6605
+        y: 1681
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bc5a17698d6ab970800000000000000
+      internalID: 8771443661165190324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_112
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 1620
+        width: 130
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4515dca6f5d5f7500800000000000000
+      internalID: 396137956627009876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_113
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 1636
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d080cb972e5692a0800000000000000
+      internalID: -6731089068848807724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_114
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 1580
+        width: 130
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 278b874a3759a42e0800000000000000
+      internalID: -2140734348948096910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_115
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 1612
+        width: 34
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3080b04638d1c1850800000000000000
+      internalID: 6348982024841922563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_116
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 1588
+        width: 34
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20b106c0298709a0800000000000000
+      internalID: -6266889582608797649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_117
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 1540
+        width: 130
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 104186cbcf6d6cd90800000000000000
+      internalID: -7077733383385115647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarbleZone-Act1_118
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 23
+        width: 6658
+        height: 1282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d8131abc9dd79cc0800000000000000
+      internalID: -3704248503282493227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MarbleZone-Act1_0: -1996979703969742516
+      MarbleZone-Act1_1: -4143692001745229741
+      MarbleZone-Act1_10: 1823551090470129458
+      MarbleZone-Act1_100: 1199378869816515159
+      MarbleZone-Act1_101: -7973359351614781081
+      MarbleZone-Act1_102: -6892368542071627475
+      MarbleZone-Act1_103: -6842206018539613108
+      MarbleZone-Act1_104: -5826255393537645106
+      MarbleZone-Act1_105: 1649453863267034745
+      MarbleZone-Act1_106: 7075782625816280727
+      MarbleZone-Act1_107: 1055730777633770507
+      MarbleZone-Act1_108: -4270001042168786473
+      MarbleZone-Act1_109: -7143815784817520607
+      MarbleZone-Act1_11: -8996655995042442667
+      MarbleZone-Act1_110: 72386031122149091
+      MarbleZone-Act1_111: 8771443661165190324
+      MarbleZone-Act1_112: 396137956627009876
+      MarbleZone-Act1_113: -6731089068848807724
+      MarbleZone-Act1_114: -2140734348948096910
+      MarbleZone-Act1_115: 6348982024841922563
+      MarbleZone-Act1_116: -6266889582608797649
+      MarbleZone-Act1_117: -7077733383385115647
+      MarbleZone-Act1_118: -3704248503282493227
+      MarbleZone-Act1_12: -9080338461091285920
+      MarbleZone-Act1_13: -5174998513251665513
+      MarbleZone-Act1_14: 4480399780096521439
+      MarbleZone-Act1_15: 7252673699383647375
+      MarbleZone-Act1_16: -2010469310571412471
+      MarbleZone-Act1_17: -5184258010715867417
+      MarbleZone-Act1_18: 8514103871868352979
+      MarbleZone-Act1_19: -3265551254555047368
+      MarbleZone-Act1_2: -2347831184296875449
+      MarbleZone-Act1_20: -3108670647229437442
+      MarbleZone-Act1_21: 4836461209669210896
+      MarbleZone-Act1_22: 1927263130720271501
+      MarbleZone-Act1_23: 3181430347154476165
+      MarbleZone-Act1_24: 5088466865024071191
+      MarbleZone-Act1_25: -6748759996772535621
+      MarbleZone-Act1_26: 3939807224489858428
+      MarbleZone-Act1_27: -6487723243327098664
+      MarbleZone-Act1_28: -3368671146805937494
+      MarbleZone-Act1_29: 5089626696790004039
+      MarbleZone-Act1_3: 7370276711298619238
+      MarbleZone-Act1_30: -5772605889882134258
+      MarbleZone-Act1_31: 8079186155526437795
+      MarbleZone-Act1_32: -5151449297125445183
+      MarbleZone-Act1_33: -3251736710766667590
+      MarbleZone-Act1_34: -3032992513431887282
+      MarbleZone-Act1_35: -476556308965251863
+      MarbleZone-Act1_36: -8860363180843886293
+      MarbleZone-Act1_37: 304010370038708059
+      MarbleZone-Act1_38: -7935156317376904444
+      MarbleZone-Act1_39: -8699626987958415725
+      MarbleZone-Act1_4: 8704450370234463264
+      MarbleZone-Act1_40: -6774903808134374051
+      MarbleZone-Act1_41: 3474004388140648463
+      MarbleZone-Act1_42: 5424735378783289523
+      MarbleZone-Act1_43: -846393356411378874
+      MarbleZone-Act1_44: -7330208101194262946
+      MarbleZone-Act1_45: 1443165124456249494
+      MarbleZone-Act1_46: 5502512089654534726
+      MarbleZone-Act1_47: 330133043585012118
+      MarbleZone-Act1_48: 7740446922687549576
+      MarbleZone-Act1_49: 7396747864404427431
+      MarbleZone-Act1_5: -3738978201589102016
+      MarbleZone-Act1_50: 2165460360246161016
+      MarbleZone-Act1_51: -5549018170715229124
+      MarbleZone-Act1_52: -5565504795350558675
+      MarbleZone-Act1_53: -7894975845643692961
+      MarbleZone-Act1_54: -3391788449582818530
+      MarbleZone-Act1_55: -7886494706269971351
+      MarbleZone-Act1_56: 4420861902461663368
+      MarbleZone-Act1_57: -8073587040002425282
+      MarbleZone-Act1_58: -5998531551988091192
+      MarbleZone-Act1_59: 7461196523061104440
+      MarbleZone-Act1_6: -5614876212214447157
+      MarbleZone-Act1_60: -8926310119756264182
+      MarbleZone-Act1_61: 1194868508524965478
+      MarbleZone-Act1_62: 9022106755164885501
+      MarbleZone-Act1_63: -7611954711321000626
+      MarbleZone-Act1_64: -4865347760582247324
+      MarbleZone-Act1_65: -6129379294475479506
+      MarbleZone-Act1_66: -3052319231468951078
+      MarbleZone-Act1_67: 7400017326727830855
+      MarbleZone-Act1_68: 1970508925272522742
+      MarbleZone-Act1_69: -2560894238706637449
+      MarbleZone-Act1_7: -3185676909682777096
+      MarbleZone-Act1_70: 5770629841709821557
+      MarbleZone-Act1_71: 7575876297236193045
+      MarbleZone-Act1_72: -4886443776796199944
+      MarbleZone-Act1_73: -5081750809658870582
+      MarbleZone-Act1_74: 2189351667165065086
+      MarbleZone-Act1_75: -4790983843146667420
+      MarbleZone-Act1_76: 2108309917996447625
+      MarbleZone-Act1_77: 4737054062956691825
+      MarbleZone-Act1_78: 7958659109318556599
+      MarbleZone-Act1_79: -6099763542389904779
+      MarbleZone-Act1_8: 1757442390391890794
+      MarbleZone-Act1_80: 4258585811225398666
+      MarbleZone-Act1_81: 4217357999658908098
+      MarbleZone-Act1_82: -4830366383360019370
+      MarbleZone-Act1_83: -5240351448932248432
+      MarbleZone-Act1_84: 5144354648093874918
+      MarbleZone-Act1_85: 2556006800787538802
+      MarbleZone-Act1_86: 3277980431726662345
+      MarbleZone-Act1_87: 3726711711402551725
+      MarbleZone-Act1_88: -216862583095462958
+      MarbleZone-Act1_89: 2202892743367955951
+      MarbleZone-Act1_9: -8852327448155926241
+      MarbleZone-Act1_90: 5795429519271374218
+      MarbleZone-Act1_91: -5401744379621808376
+      MarbleZone-Act1_92: 1511441787429866414
+      MarbleZone-Act1_93: -6389335782975489240
+      MarbleZone-Act1_94: -6719648257027900458
+      MarbleZone-Act1_95: 6702652976260592943
+      MarbleZone-Act1_96: -6908476304300335636
+      MarbleZone-Act1_97: 504623189550183120
+      MarbleZone-Act1_98: 446935528277481983
+      MarbleZone-Act1_99: -182749036523706595
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
