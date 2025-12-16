@@ -5822,11 +5822,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 44229497}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Daniel-Argudo
 --- !u!1001 &1781653992
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5857,11 +5852,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6008342112613376781, guid: 52810fb277bbf4740b26c32bb0858d55, type: 3}
       propertyPath: m_LocalPosition.y
-<<<<<<< HEAD
-      value: -4.09
-=======
       value: -4.01
->>>>>>> Daniel-Argudo
       objectReference: {fileID: 0}
     - target: {fileID: 6008342112613376781, guid: 52810fb277bbf4740b26c32bb0858d55, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5917,10 +5908,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1791820618}
   - component: {fileID: 1791820617}
-<<<<<<< HEAD
-=======
   - component: {fileID: 1791820620}
->>>>>>> Daniel-Argudo
   - component: {fileID: 1791820619}
   m_Layer: 0
   m_Name: Base1_0
@@ -5999,10 +5987,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
---- !u!68 &1791820619
-EdgeCollider2D:
-=======
 --- !u!251 &1791820619
 PlatformEffector2D:
   m_ObjectHideFlags: 0
@@ -6024,7 +6008,6 @@ PlatformEffector2D:
   m_SideArc: 1
 --- !u!61 &1791820620
 BoxCollider2D:
->>>>>>> Daniel-Argudo
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -6054,25 +6037,6 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-<<<<<<< HEAD
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: -0.955, y: 0}
-  - {x: -0.9597833, y: -0.5508885}
-  - {x: -0.9536859, y: 0.5300936}
-  - {x: -0.036356494, y: 0.5284778}
-  - {x: 0.50945914, y: 0.5220829}
-  - {x: 0.96333873, y: 0.5239048}
-  - {x: 0.97822934, y: -0.42975134}
-  m_AdjacentStartPoint: {x: 0, y: 0}
-  m_AdjacentEndPoint: {x: 0, y: 0}
-  m_UseAdjacentStartPoint: 0
-  m_UseAdjacentEndPoint: 0
-=======
   m_UsedByEffector: 1
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -6088,7 +6052,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.91, y: 0.053587496}
   m_EdgeRadius: 0
->>>>>>> Daniel-Argudo
 --- !u!1 &1886171364
 GameObject:
   m_ObjectHideFlags: 0
@@ -6337,10 +6300,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 16.343018, y: 0.23}
   m_EdgeRadius: 0
-<<<<<<< HEAD
->>>>>>> Stashed changes
-=======
->>>>>>> Daniel-Argudo
 --- !u!1 &2129304671
 GameObject:
   m_ObjectHideFlags: 0
