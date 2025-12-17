@@ -2,11 +2,11 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-
     public static GameManager Instance;
 
     [Header("Data")]
     public int totalRings = 0; 
+    private float timer = 0f;
 
     [Header("HUD References")]
     public SpriteNumberDisplay ringDisplay; 
@@ -14,15 +14,23 @@ public class GameManager : MonoBehaviour
     public SpriteNumberDisplay timeSecondsDisplay;
     public SpriteNumberDisplay timeMillisecondsDisplay;
 
-
-    void Start() {
-        UpdateRingUI(0); // Esto fuerza al HUD a mostrar "000" al iniciar
-    }
     private void Awake()
     {
         if (Instance == null) { Instance = this; }
         else { Destroy(gameObject); }
     }
+
+    void Start() 
+    {
+        UpdateRingUI(0); // Inicia el HUD en 000
+    }
+
+    void Update()
+    {
+        timer += Time.deltaTime; // Suma el tiempo real
+        UpdateTimerUI(timer);    // Actualiza los sprites del tiempo
+    }
+
     public void AddRing(int amount)
     {
         totalRings += amount;
