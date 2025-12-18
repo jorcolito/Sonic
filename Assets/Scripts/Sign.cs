@@ -4,15 +4,18 @@ using System.Collections;
 
 public class SignPost : MonoBehaviour
 {
+    [Header("Configuración de Destino")]
+    [Tooltip("Escribe aquí el nombre EXACTO de la escena a cargar (Ej: 'MarbleZone' o 'MenuPrincipal')")]
+    public string nombreEscenaSiguiente = "MenuPrincipal"; 
+
+    [Header("Configuración de Animación")]
+    public float spinDuration = 2.0f;
+    public float velocidadCorrer = 8f; 
+
     [Header("Sprites")]
     public Sprite faceRobotnik; 
     public Sprite faceSonic;    
     public Sprite[] spinFrames; 
-
-    [Header("Configuración")]
-    public float spinDuration = 2.0f;
-    public string nombreEscenaMenu = "MenuPrincipal"; 
-    public float velocidadCorrer = 8f; 
 
     private SpriteRenderer sr;
     private bool isActivated = false;
@@ -34,48 +37,31 @@ public class SignPost : MonoBehaviour
 
     IEnumerator EndGameSequence(GameObject player)
     {
-        // --- 1. CONGELAR LA CÁMARA (NUEVO) ---
+        // 1. Congelar cámara
         if (Camera.main != null)
         {
-            // A. Si la cámara es "hija" del jugador, la separamos
             Camera.main.transform.parent = null;
-
-            // B. Buscamos scripts en la cámara (como "CameraFollow") y los apagamos
             MonoBehaviour[] camScripts = Camera.main.GetComponents<MonoBehaviour>();
             foreach (var script in camScripts)
             {
-                // Apagamos todos los scripts de la cámara para que deje de moverse
-                // (Menos el AudioListener para que no se corte el sonido)
-                if (!script.GetType().Name.Contains("Audio"))
-                {
-                    script.enabled = false;
-                }
+                if (!script.GetType().Name.Contains("Audio")) script.enabled = false;
             }
         }
         
-        // --- 2. QUITAR CONTROL A SONIC ---
+        // 2. Quitar control
         MonoBehaviour[] scripts = player.GetComponents<MonoBehaviour>();
-        foreach(var s in scripts) 
-        {
-            if (s != this) s.enabled = false;
-        }
+        foreach(var s in scripts) if (s != this) s.enabled = false;
 
-        // --- 3. HACER QUE CORRA A LA DERECHA ---
+        // 3. Correr
         Rigidbody2D rb = player.GetComponent<Rigidbody2D>();
-        if(rb != null) 
-        {
-            rb.linearVelocity = new Vector2(velocidadCorrer, rb.linearVelocity.y);
-        }
+        if(rb != null) rb.linearVelocity = new Vector2(velocidadCorrer, rb.linearVelocity.y);
 
-        // --- 4. ANIMACIÓN DEL CARTEL ---
+        // 4. Girar cartel
         float timer = 0f;
         int frameIndex = 0;
-
         while (timer < spinDuration)
         {
-            // Mantenemos a Sonic corriendo
             if(rb != null) rb.linearVelocity = new Vector2(velocidadCorrer, rb.linearVelocity.y);
-
             if (spinFrames.Length > 0)
             {
                 sr.sprite = spinFrames[frameIndex % spinFrames.Length];
@@ -85,10 +71,11 @@ public class SignPost : MonoBehaviour
             timer += 0.1f;
         }
 
-        // --- 5. CARA DE SONIC Y FIN ---
+        // 5. Cara de Sonic y Fin
         if(faceSonic != null) sr.sprite = faceSonic;
-
         yield return new WaitForSeconds(1.5f);
-        SceneManager.LoadScene(nombreEscenaMenu);
+        
+        // --- CAMBIO CLAVE: Carga la escena que hayas escrito en el Inspector ---
+        SceneManager.LoadScene(nombreEscenaSiguiente);
     }
 }
