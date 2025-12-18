@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class GameManager : MonoBehaviour
 {
@@ -7,7 +8,10 @@ public class GameManager : MonoBehaviour
 
     [Header("Data")]
     public int totalRings = 0; 
-    public int totalLives = 3; // Empezamos con 3 vidas
+    
+    // --- EL CAMBIO MAGICO: 'static' hace que este número no se resetee al reiniciar ---
+    public static int totalLives = 3; 
+
     private float timer = 0f;
     private bool isGameOver = false;
 
@@ -16,17 +20,19 @@ public class GameManager : MonoBehaviour
     public AudioSource musicSource;
     public AudioClip ringSound;
     public AudioClip jumpSound;
-    public AudioClip deathSound; // Por si tienes sonido de muerte
+    public AudioClip gameOverMusic; 
 
     [Header("HUD References")]
     public SpriteNumberDisplay ringDisplay; 
-    public SpriteNumberDisplay livesDisplay; // NUEVO: Arrastra el display de vidas aquí
+    public SpriteNumberDisplay livesDisplay; 
     public SpriteNumberDisplay timeMinutesDisplay; 
     public SpriteNumberDisplay timeSecondsDisplay;
     public SpriteNumberDisplay timeMillisecondsDisplay;
 
-    [Header("GameOver UI")]
-    public GameObject gameOverPanel; // Arrastra tu Panel de Game Over aquí
+    [Header("Game Over")]
+    public GameObject gameOverContainer; 
+    public MonoBehaviour cameraScript;   
+    public string menuSceneName = "MenuPrincipal"; 
 
     private void Awake()
     {
@@ -36,9 +42,13 @@ public class GameManager : MonoBehaviour
 
     void Start() 
     {
+        // Si por error llegamos con 0 vidas (bug), reseteamos a 3
+        if (totalLives <= 0) totalLives = 3;
+
         UpdateRingUI(totalRings); 
         UpdateLivesUI(totalLives);
-        if (gameOverPanel != null) gameOverPanel.SetActive(false);
+        
+        if (gameOverContainer != null) gameOverContainer.SetActive(false);
     }
 
     void Update()
@@ -50,32 +60,46 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    // --- LÓGICA DE VIDAS ---
-
     public void LoseLife()
     {
-        totalLives--;
+        totalLives--; // Restamos vida
         UpdateLivesUI(totalLives);
 
         if (totalLives <= 0)
         {
-            TriggerGameOver();
+            // SI LLEGAMOS A 0, EJECUTAMOS LA SECUENCIA DE GAME OVER
+            StartCoroutine(SequenceGameOver());
         }
         else
         {
-            // Reinicia la escena después de un pequeño delay
-            Invoke("RestartLevel", 1.5f);
+            // SI AUN QUEDAN VIDAS, REINICIAMOS NIVEL
+            Invoke("RestartLevel", 0.5f);
         }
     }
 
-    private void TriggerGameOver()
+    IEnumerator SequenceGameOver()
     {
         isGameOver = true;
+
+        // 1. Parar música del nivel
         if (musicSource != null) musicSource.Stop();
-        if (gameOverPanel != null) gameOverPanel.SetActive(true);
+
+        // 2. Congelar la cámara
+        if (cameraScript != null) cameraScript.enabled = false;
+
+        // 3. Esperar 1 segundo con la pantalla quieta
+        yield return new WaitForSeconds(1f);
+
+        // 4. Mostrar SPRITES GAME OVER y tocar música
+        if (gameOverContainer != null) gameOverContainer.SetActive(true);
+        if (sfxSource != null && gameOverMusic != null) sfxSource.PlayOneShot(gameOverMusic);
+
+        // 5. Esperar 5 segundos y cargar Menú
+        yield return new WaitForSeconds(5f);
         
-        // Opcional: Congelar el tiempo
-        // Time.timeScale = 0f; 
+        // IMPORTANTE: Reseteamos las vidas a 3 para la próxima vez que juegue desde el menú
+        totalLives = 3; 
+        SceneManager.LoadScene(menuSceneName);
     }
 
     private void RestartLevel()
@@ -83,21 +107,7 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
-    // Método para el botón de "Retry" del Panel de Game Over
-    public void ResetGame()
-    {
-        Time.timeScale = 1f;
-        totalLives = 3;
-        totalRings = 0;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
-
-    // --- MÉTODOS DE SONIDO ---
-
-    public void PlayRingSound() { if (sfxSource && ringSound) sfxSource.PlayOneShot(ringSound); }
-    public void PlayJumpSound() { if (sfxSource && jumpSound) sfxSource.PlayOneShot(jumpSound); }
-
-    // --- MÉTODOS DE UI ---
+    // --- UI Y SONIDO ---
 
     public void UpdateLivesUI(int livesCount)
     {
@@ -111,20 +121,16 @@ public class GameManager : MonoBehaviour
         PlayRingSound();
     }
 
-    public void UpdateRingUI(int ringCount)
-    {
-        if (ringDisplay != null) ringDisplay.SetNumber(ringCount);
-    }
+    public void UpdateRingUI(int ringCount) { if (ringDisplay != null) ringDisplay.SetNumber(ringCount); }
+    public void PlayRingSound() { if (sfxSource && ringSound) sfxSource.PlayOneShot(ringSound); }
+    public void PlayJumpSound() { if (sfxSource && jumpSound) sfxSource.PlayOneShot(jumpSound); }
 
     public void UpdateTimerUI(float currentTime)
     {
-        if (timeMinutesDisplay == null || timeSecondsDisplay == null || timeMillisecondsDisplay == null)
-            return;
-
+        if (timeMinutesDisplay == null) return;
         int minutes = (int)(currentTime / 60);
         int seconds = (int)(currentTime % 60);
         int milliseconds = (int)((currentTime * 100) % 100);
-
         timeMinutesDisplay.SetNumber(minutes); 
         timeSecondsDisplay.SetNumber(seconds); 
         timeMillisecondsDisplay.SetNumber(milliseconds);
