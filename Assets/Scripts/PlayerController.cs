@@ -238,4 +238,11 @@ public class PlayerController : MonoBehaviour
             GameManager.Instance.LoseLife();
         }
     }
+
+    public void ActivateSpringJump()
+{
+    // Forzamos los estados para que la corrutina 'Animate' sepa que debe poner el sprite de salto
+    isGrounded = false;
+    isJumping = true;
+}
 }
