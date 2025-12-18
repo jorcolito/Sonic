@@ -1,33 +1,34 @@
 using UnityEngine;
 
-public class Sonic1Parallax : MonoBehaviour
+public class InfiniteBackground : MonoBehaviour
 {
-    public Transform cam;
-    [Range(0f, 1f)]
-    public float parallaxSpeedX = 0.5f; // Cuánto se mueve horizontalmente
-
-    private float fixedY; // Aquí guardaremos la altura inicial
-    private float startZ;
+    public Transform camara;
+    public float textureSizeX; 
+    private float yFijaEnElMundo; 
 
     void Start()
     {
-        if (cam == null) cam = Camera.main.transform;
-        
-        // Guardamos la posición Y inicial para que NUNCA cambie
-        fixedY = transform.position.y;
-        startZ = transform.position.z;
+        // Guardamos la altura Y exacta en la que pusiste el fondo en Unity
+        yFijaEnElMundo = transform.position.y;
+
+        if (textureSizeX <= 0)
+        {
+            SpriteRenderer sr = GetComponent<SpriteRenderer>();
+            if (sr != null) textureSizeX = sr.bounds.size.x;
+        }
     }
 
     void LateUpdate()
     {
-        if (cam == null) return;
+        if (camara == null) return;
 
-        // X: Se mueve proporcionalmente a la cámara
-        float targetX = cam.position.x * (1 - parallaxSpeedX);
+        // Movimiento infinito en X (sigue a la cámara)
+        float distance = camara.position.x;
+        float temp = (camara.position.x % textureSizeX);
 
-        // Y: SE QUEDA ESTÁTICO (usa el valor que guardamos al inicio)
-        float targetY = fixedY;
-
-        transform.position = new Vector3(targetX, targetY, startZ);
+        // APLICACIÓN: 
+        // X: Se mueve con la cámara y se repite.
+        // Y: SE QUEDA EN LA POSICIÓN ORIGINAL DEL MUNDO.
+        transform.position = new Vector3(distance - temp, yFijaEnElMundo, transform.position.z);
     }
 }

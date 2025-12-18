@@ -75,7 +75,6 @@ public class PlayerController : MonoBehaviour
             HandleJump();
             HandleFlip();
             HandleIdleTimer();
-            
             GameManager.Instance?.UpdateTimerUI(Time.time - startTime); 
         }
     }
@@ -83,14 +82,10 @@ public class PlayerController : MonoBehaviour
     void HandleMovement()
     {
         float input = 0f;
-
-        if (Input.GetKey(KeyCode.RightArrow))
-            input = 1f;
-        else if (Input.GetKey(KeyCode.LeftArrow))
-            input = -1f;
+        if (Input.GetKey(KeyCode.RightArrow)) input = 1f;
+        else if (Input.GetKey(KeyCode.LeftArrow)) input = -1f;
 
         float targetSpeed = input * maxSpeed;
-
         if (Mathf.Abs(input) > 0)
             currentSpeed = Mathf.MoveTowards(currentSpeed, targetSpeed, acceleration * Time.deltaTime);
         else
@@ -105,13 +100,12 @@ public class PlayerController : MonoBehaviour
         {
             float speedAbs = Mathf.Abs(currentSpeed);
             float jump = jumpForce;
-
-            if (speedAbs >= maxSpeed - speedThresholdOffset)
-                jump += jumpBoost;
+            if (speedAbs >= maxSpeed - speedThresholdOffset) jump += jumpBoost;
 
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jump);
             isGrounded = false;
             isJumping = true; 
+            GameManager.Instance?.PlayJumpSound();
         }
     }
 
@@ -120,8 +114,7 @@ public class PlayerController : MonoBehaviour
         if (Mathf.Abs(currentSpeed) < 0.1f && isGrounded)
         {
             idleTimer += Time.deltaTime;
-            if (idleTimer >= idleTimeToAnimate)
-                inLongIdle = true;
+            if (idleTimer >= idleTimeToAnimate) inLongIdle = true;
         }
         else
         {
@@ -132,10 +125,8 @@ public class PlayerController : MonoBehaviour
 
     void HandleFlip()
     {
-        if (currentSpeed > 0 && !facingRight)
-            Flip();
-        else if (currentSpeed < 0 && facingRight)
-            Flip();
+        if (currentSpeed > 0 && !facingRight) Flip();
+        else if (currentSpeed < 0 && facingRight) Flip();
     }
 
     void Flip()
@@ -183,7 +174,6 @@ public class PlayerController : MonoBehaviour
                 spriteIndex = 0;
                 inJumpAnimation = false;
             }
-
             yield return new WaitForSeconds(0.1f);
         }
     }
@@ -204,13 +194,10 @@ public class PlayerController : MonoBehaviour
             {
                 Destroy(collision.gameObject);
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce * 0.5f);
+                GameManager.Instance?.PlayJumpSound();
             }
-            else
-            {
-                StartCoroutine(PlayerDeath());
-            }
+            else StartCoroutine(PlayerDeath());
         }
-
         else if (collision.gameObject.CompareTag("Enemy2"))
         {
             StartCoroutine(PlayerDeath());
@@ -223,27 +210,32 @@ public class PlayerController : MonoBehaviour
         GameManager.Instance?.UpdateRingUI(ringCount); 
     }
 
+    public void MorirPorPinchos()
+    {
+        if (!isDead) StartCoroutine(PlayerDeath());
+    }
+
     IEnumerator PlayerDeath()
     {
         isDead = true;
+        if (animateCoroutine != null) StopCoroutine(animateCoroutine);
+        if (deathSprite != null) sr.sprite = deathSprite;
+        if (playerCollider != null) playerCollider.enabled = false;
 
-        if (animateCoroutine != null)
-            StopCoroutine(animateCoroutine);
-
-        if (deathSprite != null)
-            sr.sprite = deathSprite;
-
-        if (playerCollider != null)
-            playerCollider.enabled = false;
-
+        // Salto hacia arriba
         rb.linearVelocity = new Vector2(0, deathJumpForce);
-
         yield return new WaitForSeconds(0.2f);
 
+        // Caída hacia abajo
         rb.linearVelocity = new Vector2(0, fallSpeed);
 
+        // Esperamos el tiempo que definiste para que Sonic salga de la pantalla
         yield return new WaitForSeconds(respawnDelay);
 
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        // Llamamos al GameManager para ver si quedan vidas o es Game Over
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.LoseLife();
+        }
     }
 }
