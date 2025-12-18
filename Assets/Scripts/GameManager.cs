@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
 
     [Header("Data")]
-    public int totalRings = 0; 
+    public static int totalRings = 0; 
     
     // --- EL CAMBIO MAGICO: 'static' hace que este número no se resetee al reiniciar ---
     public static int totalLives = 3; 
