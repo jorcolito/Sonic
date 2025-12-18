@@ -112,6 +112,7 @@ public class PlayerController : MonoBehaviour
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jump);
             isGrounded = false;
             isJumping = true; 
+            GameManager.Instance?.PlayJumpSound();
         }
     }
 
@@ -204,6 +205,7 @@ public class PlayerController : MonoBehaviour
             {
                 Destroy(collision.gameObject);
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce * 0.5f);
+                GameManager.Instance?.PlayJumpSound();
             }
             else
             {
@@ -246,4 +248,12 @@ public class PlayerController : MonoBehaviour
 
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+
+    public void MorirPorPinchos()
+{
+    if (!isDead)
+    {
+        StartCoroutine(PlayerDeath());
+    }
+}
 }
